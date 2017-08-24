@@ -4,4 +4,4 @@ RUN mkdir /data
 COPY /data/ /data
 RUN mkdir /notebooks
 COPY /notebooks/ /notebooks
-RUN conda create -c conda-forge -n vectorenv python=2.7 geopandas geojson pysal rasterstats seaborn mplleaflet folium cartopy jupyter
+RUN conda create -c conda-forge -n vectorenv python=3.6 geopandas geojson pysal rasterstats seaborn mplleaflet folium cartopy jupyter

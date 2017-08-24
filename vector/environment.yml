@@ -1,0 +1,14 @@
+name: vectorenv
+channels:
+- conda-forge
+dependencies:
+- python=3.6
+- geopandas
+- geojson
+- pysal
+- pyepsg
+- rasterstats
+- requests
+- folium
+- seaborn
+- jupyter
