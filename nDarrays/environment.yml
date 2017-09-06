@@ -1,0 +1,24 @@
+name: ndarrays
+channels:
+- conda-forge
+dependencies:
+- python=3.6
+- numpy
+- pandas
+- scipy
+- xarray
+- bottleneck
+# backends
+- h5py
+- h5netcdf
+- netcdf4
+- rasterio
+# parallel libs
+- dask
+- distributed
+# plotting
+- seaborn
+- matplotlib
+- cartopy
+- bokeh
+- graphviz
