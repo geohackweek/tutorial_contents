@@ -18,7 +18,7 @@ Otherwise, on the command shell, you can launch Jupyter notebooks (after activat
 jupyter notebook
 ```
 
-### Removing and recreating the `geopandasenv` conda environment
+### Removing and recreating the `vectorenv` conda environment
 
 To delete the conda environment, first "deactivate" it if you've activated it in your shell session:
 ```bash
