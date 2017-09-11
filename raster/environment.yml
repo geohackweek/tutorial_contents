@@ -12,6 +12,7 @@ dependencies:
     - cython
     - matplotlib
     - jupyter
+    - rasterio
     - pip:
         - pygeotools
         - pygeoprocessing>=0.4.4
