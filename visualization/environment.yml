@@ -1,0 +1,28 @@
+
+name: geohack2
+channels:
+- conda-forge
+dependencies:
+- python=3.6
+- ipython
+- jupyter
+- ipywidgets
+- gdal
+- libgdal
+- basemap
+- geopandas
+- geojson
+- pysal
+- pyepsg
+- rasterstats
+- requests
+- folium
+- seaborn
+- pyproj
+- ipyleaflet
+- cartopy
+- rasterio
+- pykml
+- jsanimation
+- pip:
+    - cesiumpy
