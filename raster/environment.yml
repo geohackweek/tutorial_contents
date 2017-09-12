@@ -1,0 +1,18 @@
+name: rasterenv
+
+channels:
+    - conda-forge
+
+dependencies:
+    - python=2.7
+    - numpy
+    - scipy
+    - shapely
+    - gdal
+    - cython
+    - matplotlib
+    - jupyter
+    - rasterio
+    - pip:
+        - pygeotools
+        - pygeoprocessing>=0.4.4
