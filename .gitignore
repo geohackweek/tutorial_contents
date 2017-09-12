@@ -4,4 +4,4 @@
 .ipynb_checkpoints
 
 # Ignore credential file
-db.json
+# db.json

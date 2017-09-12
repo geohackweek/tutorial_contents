@@ -1,0 +1,5 @@
+{"host": "dssg2017.csya4zsfb6y4.us-east-1.rds.amazonaws.com", 
+ "port": 5432, 
+ "database": "geohack",
+ "user": "geohackstudent", 
+ "password": "geohackStudent2017"}
