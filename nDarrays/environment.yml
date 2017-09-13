@@ -22,3 +22,7 @@ dependencies:
 - cartopy
 - bokeh
 - graphviz
+- eofs
+- geopandas
+pip:
+    - regionmask
