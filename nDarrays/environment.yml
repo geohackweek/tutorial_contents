@@ -1,4 +1,4 @@
-name: ndarrays
+name: ndarrays2
 channels:
 - conda-forge
 dependencies:
