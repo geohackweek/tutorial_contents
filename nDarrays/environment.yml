@@ -1,4 +1,4 @@
-name: ndarrays2
+name: ndarrays
 channels:
 - conda-forge
 dependencies:
@@ -24,5 +24,5 @@ dependencies:
 - graphviz
 - eofs
 - geopandas
-pip:
-    - regionmask
+- pip:
+  - regionmask
