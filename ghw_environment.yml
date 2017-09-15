@@ -1,0 +1,46 @@
+name: geohackenv
+channels:
+- conda-forge
+dependencies:
+- python=2.7
+- numpy
+- pandas
+- scipy
+- xarray
+- bottleneck
+- shapely
+- gdal
+- cython
+- ipykernel
+- h5py
+- h5netcdf
+- netcdf4
+- rasterio
+- dask
+- distributed
+- seaborn
+- cartopy
+- bokeh
+- graphviz
+- eofs
+- geopandas
+- jupyter
+- nb_conda_kernels
+- geojson
+- pysal
+- pyepsg
+- rasterstats
+- requests
+- ipywidgets
+- ipython
+- pyproj
+- ipyleaflet
+- pykml
+- jsanimation
+- lxml
+
+- pip:
+  - regionmask
+  - pygeotools
+  - pygeoprocessing>=0.4.4
+  - cesiumpy
