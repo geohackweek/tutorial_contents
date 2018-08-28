@@ -1,18 +1,19 @@
+# NOTE: apt-get install build-essential contains required compilers on debian
+---
 name: rasterenv
-
 channels:
-    - conda-forge
+        - conda-forge
 
 dependencies:
-    - python=2.7
-    - numpy
-    - scipy
-    - shapely
-    - gdal
-    - cython
-    - matplotlib
-    - jupyter
-    - rasterio
-    - pip:
-        - pygeotools
-        - pygeoprocessing>=0.4.4
+        - python=3.6
+        - gdal>=2.2.3
+        - rasterio>=1.0
+        - cython
+        - jupyter
+        - matplotlib
+        - numpy
+        - pyproj
+        - shapely
+        - pip:
+            - pygeotools
+            - pygeoprocessing
