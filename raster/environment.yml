@@ -10,7 +10,7 @@ dependencies:
         - rasterio>=1.0
         - cython
         - jupyter
-        - matplotlib
+        - matplotlib=2.2.3
         - numpy
         - pyproj
         - shapely
