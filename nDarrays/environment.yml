@@ -18,11 +18,8 @@ dependencies:
 - distributed
 # plotting
 - seaborn
-- matplotlib
-- cartopy
 - bokeh
 - graphviz
 - eofs
-- geopandas
 - pip:
   - regionmask
