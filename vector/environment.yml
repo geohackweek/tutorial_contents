@@ -10,5 +10,6 @@ dependencies:
 - rasterstats
 - requests
 - folium
+- geoplot
 - seaborn
 - jupyter
