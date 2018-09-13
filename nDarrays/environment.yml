@@ -1,25 +1,26 @@
-name: ndarrays
+name: xarray
 channels:
-- conda-forge
+  - conda-forge
+  - intake
+  - default
 dependencies:
-- python=3.6
-- numpy
-- pandas
-- scipy
-- xarray
-- bottleneck
-# backends
-- h5py
-- h5netcdf
-- netcdf4
-- rasterio
-# parallel libs
-- dask
-- distributed
-# plotting
-- seaborn
-- bokeh
-- graphviz
-- eofs
-- pip:
-  - regionmask
+  - python=3.6
+  - numpy
+  - scipy
+  - pandas
+  - xarray
+  - matplotlib
+  - dask
+  - distributed
+  - bokeh
+  - holoviews
+  - geoviews
+  - netcdf4
+  - zarr
+  - numcodecs
+  - python-blosc
+  - lz4
+  - nbserverproxy
+  - jupyterlab
+  - ipywidgets
+  - graphviz
