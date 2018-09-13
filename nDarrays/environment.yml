@@ -20,7 +20,4 @@ dependencies:
   - numcodecs
   - python-blosc
   - lz4
-  - nbserverproxy
-  - jupyterlab
-  - ipywidgets
   - graphviz
