@@ -8,8 +8,10 @@ dependencies:
 - geojson
 - pysal
 - pyepsg
+- utm
 - rasterstats
 - requests
 - folium
 - seaborn
+- osmnx
 - jupyter
