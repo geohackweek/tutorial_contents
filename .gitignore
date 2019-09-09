@@ -2,6 +2,9 @@
 
 .idea
 .ipynb_checkpoints
+vector/data/seas_na_arealt1000.*
 
 # Ignore credential file
 # db.json
+
+vector/notebooks/01-basemap_cartopy\.ipynb

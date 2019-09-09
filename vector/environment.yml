@@ -1,17 +1,20 @@
-name: vectorenv
+name: vectorenv19
 channels:
 - conda-forge
+- default
 dependencies:
-- python=3.6
-- geopandas
+- python=3.7
+- geopandas=0.5.1
 - psycopg2
 - geojson
 - pysal
+- mapclassify
 - pyepsg
 - utm
 - rasterstats
 - requests
 - folium
 - seaborn
+- geoviews
 - osmnx
 - jupyter

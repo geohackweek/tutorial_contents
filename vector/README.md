@@ -19,7 +19,7 @@ Then, at the terminal (after changing directories to `ghw_tutorial_contents/vect
 ```bash
 conda env create -f environment.yml
 ```
-An environment called `vectorenv` will be created. Note that this environment doesn't include JupyterLab, though it does include Jupyter notebook. It assumes you are running JupyterLab using a different conda environment where JupyterLab is installed.
+An environment called `vectorenv19` will be created. Note that this environment doesn't include JupyterLab, though it does include Jupyter notebook. It assumes you are running JupyterLab using a different conda environment where JupyterLab is installed.
 
 
 ### Install miniconda and setup JupyterLab
@@ -37,7 +37,7 @@ export PATH="$HOME/miniconda/bin:$PATH"
 conda update conda --yes
 
 # Create a conda environment with jupyterlab
-conda create -n jupyterlab -c conda-forge python=3.6 jupyterlab nb_conda_kernels nodejs
+conda create -n jupyterlab -c conda-forge python=3.7 jupyterlab nb_conda_kernels nodejs
 
 # Starting jupyter lab
 source activate jupyterlab
