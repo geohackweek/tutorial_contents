@@ -21,3 +21,4 @@ dependencies:
 - holoviews
 - panel
 - cartopy
+- contextily
